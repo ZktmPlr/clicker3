@@ -1,0 +1,160 @@
+body{
+    height:100vh;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+   background:url("pict.png");
+    user-select: none; 
+    overflow:hidden;
+     
+}
+s{
+    height: 100%;
+    width: 50%;
+    
+        object-fit: contain;
+}
+con{
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+}
+@keyframes spin{
+    from{
+        rotate:0deg;
+    }to{
+        rotate:360deg;
+    }
+}
+#buyables{
+    width:50%;
+    height:10vh;
+}
+#cat{
+    animation: spin 8s infinite linear;
+}
+#cat:hover{
+    background:transparent;
+}
+.no-copy {
+    user-select: none;
+  }
+#wynik{
+    width:50%;
+    height:5vh;
+    font-size:32.5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    background:rgb(138, 138, 138);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.buy img {
+    height: 100%;
+    width: 50%;
+    
+        object-fit: contain;
+    }
+  
+  
+button{
+    background:none;
+    border:none;
+}
+button:hover{
+    background:rgb(230,230,230);
+}
+.container,.click,.buy{
+    width:33%;
+    height:50vh;
+}
+#worlds,#settings,#header,#footer{
+    height:10vh;
+    width:100vw;
+}
+.click{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:50px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    flex:2;
+    gap:1vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    
+
+}
+.container img {
+    height: 100%;
+    width: 50%;
+    
+        object-fit: contain;
+    }
+.buy{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    flex:2;
+    gap:1vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    
+
+}
+#LCC{
+    display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        height: 100%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    padding:1vh;
+}
+.achievement{
+    background:rgb(102, 102, 138);
+    border-radius:20px;
+    height:3vh;
+    width:10vw;
+}
+#LC,#NC{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+width:33vw;
+height:12.5vh;
+}
+#kitten{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    align-items:center;
+    font-size:30px;
+width:33vw;
+height:12.5vh; 
+}
+#LC:hover,#kitten:hover,#NC:hover{
+    background:rgba(0,0,0,0.1)
+}
